@@ -1,0 +1,15 @@
+use case client, server: need programming language 
+
+history: JS
+
+Variables
+
+Data Types
+
+Arthematic Operators
+
+Comparison
+
+Logical Operators
+
+Short Circuits
