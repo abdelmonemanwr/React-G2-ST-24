@@ -1,0 +1,44 @@
+body {
+	background-color: #eee;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+	background-color: #aaa;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin: 0 0 0 auto;
+	margin-right: 5px;
+}
+
+p {
+	background-color: #ccc;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+input {
+	display: block;
+	border: none;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.newClass2{
+	background-color: royalblue;
+}
