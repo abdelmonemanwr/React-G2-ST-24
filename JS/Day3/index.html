@@ -25,10 +25,12 @@
             praesent
             aliquet ridiculus libero? Aliquet ipsum fames aenean netus conubia nam tempor vivamus.</p>
     </div>
-    <div>
-        <a href="https://google.com/">ITI</a>
-        <img src="./sofa02.png" alt="sofa" />
-        <input type="text" name="input" id="input" placeholder="Enter your name" value="test" />
+    <div class="extra">
+        <a href="https://google.com/" class="google">Go To Google</a>
+        <!-- onclick, onchange, oninput, onfocus, onmouseenter, onmouseleave -->
+        <input type="text" name="input" id="input" oninput="getText()" placeholder="Enter your name" value="" />
+
+        <img src="./sofa02.png" alt="sofa" id="sofa" />
     </div>
 
     <script src="./script.js"></script>

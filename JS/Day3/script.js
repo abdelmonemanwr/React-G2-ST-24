@@ -230,25 +230,23 @@
 // how to change style
 
 //1- Style Object
-// var h = document.querySelectorAll("div h1#head1")[0];
+var h = document.querySelectorAll("div h1#head1")[0];
 // console.log(h.innerText);
-// h.style.backgroundColor = "red";
-// h.style.color = "white";
-// h.style.padding = "7px";
+h.style.backgroundColor = "red";
+h.style.color = "white";
+h.style.padding = "7px";
 
 //2- Class Name
-// var h = document.querySelectorAll("div h1#head2")[0];
+var h = document.querySelectorAll("div h1#head2")[0];
 // console.log(h.innerText);
-// h.style.color = "white";
-// h.style.padding = "7px";
-
+h.style.color = "white";
+h.style.padding = "7px";
 // console.log(h);
-// h.className = "newClass";
-// h.className += " newClass2";
+h.className = "newClass";
+h.className += " newClass2";
 // console.log(h);
 
 //3- Class List
-
 // var h = document.querySelectorAll("div h1#head1")[0];
 // h.classList.add("container");
 // console.log(h);
@@ -263,5 +261,11 @@
 function show(){
     var p = document.querySelector("p");
     p.style.color = "red";
-    p.innerHTML = "iti";
+    p.style.fontSize = "30px";
+    p.innerHTML = "Text's content and style have been changed from JS code :)";
+}
+
+function getText(){
+    var inputText = document.getElementById("input").value;
+    console.log(inputText);
 }
