@@ -11,7 +11,7 @@ div {
 	background-color: #aaa;
 	padding: 10px;
 	margin-bottom: 10px;
-	border-radius: 5px;
+	border-radius: 15px;
 }
 
 button {
@@ -70,7 +70,7 @@ p {
 	display: block;
 	margin: 0 auto;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	width: 375px;
 	padding: 10px;
 	border-radius: 10px;
@@ -78,6 +78,7 @@ p {
 	font-size: 20px;
 	background-color: rgb(150, 60, 60);	
 }
+
 #input:focus{
 	outline: none;
 }
