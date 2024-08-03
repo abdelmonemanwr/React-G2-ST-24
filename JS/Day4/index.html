@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Day3</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div>
+        <h1 id="head1">Window Object</h1>
+        <button class="my-btn" onclick="openWindow()">Open New Window</button>
+        <button class="my-btn" onclick="closeWindow()">close Window</button>
+        <button class="my-btn" onclick="moveToWindow()">Move To Window</button>
+        <button class="my-btn" onclick="moveByWindow()">Move By Window</button>
+        <button class="my-btn" onclick="resizeToWindow()">Resize To Window</button>
+        <button class="my-btn" onclick="resizeByWindow()">Resize By Window</button>
+    </div>
+
+    <div class="extra">
+        <h1 id="head1">Welcome back in Day 4</h1>
+        <a class="link" id="link1" href="https://google.com/" target="_blank">Go To Google</a>
+
+        <a class="link" id="link2" href="https://linkedin.com/" target="_blank">Go To LinkedIn</a>
+
+        <a class="link" id="link3" href="https://instagram.com/" target="_blank">Go To Instagram</a>
+
+        <!-- onclick, onchange, oninput, onfocus, onmouseenter, onmouseleave -->
+
+        <input id="input" name="input" type="text" value="" placeholder="Start typing..." value=""
+            oninput="getText(event)" />
+
+        <p id="pp">lorem ipsum</p>
+        <button id="btn">Get Text</button>
+    </div>
+
+    <div>
+        <img src="./images/1.png" alt="image" id="image" />
+        <button class="btn" onclick="nextImage()">Next Image</button>
+    </div>
+
+    <div>
+        <h1 id="head2">Stop Watch</h1>
+        <p class="count">Count = 0 Seconds</p>
+        <div class="inner">
+            <button class="btn start" onclick="start()">Start</button>
+            <button class="btn stop" onclick="stop()">Stop</button>
+            <button class="btn reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <div>
+        <form onsubmit="login(event)">
+            <input type="text" class="in" id="input" value="" placeholder="Enter your username" />
+            <span id="errorMSG">username length must be more than 5 characters</span>
+            <button id="send" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

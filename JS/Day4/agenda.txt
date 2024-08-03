@@ -1,0 +1,54 @@
+= quick revision on how to get value of inputs using inputs' events such as:
+  1-- onclick,
+  2-- onchange, 
+  3-- onfocus, 
+  4-- oninput, 
+  5-- ...
+
+----------------------------------------------------
+
+= Dom
+  1-- attributes
+  2-- getAttribute("x") -> where :
+          [&]  x can be (class, id, ...)
+  3-- setAttribute("x", "y") -> where :
+          [&]  x: can be (class, id, ...)
+          [&]  y: is the value of the attribute
+  4-- hasAttribute("x") -> where :
+          [&]  x can be (class, id, ...)
+          [&]  return true or false
+  5-- removeAttribute("x") -> where :
+          [&]  x can be (class, id, ...)
+
+----------------------------------------------------
+= you can get good images from this website : https://www.pexels.com
+= https://www.remove.bg/upload
+----------------------------------------------------
+
+= How to create elements using JavaScript?
+
+ 1-- createElement("x") -> where :
+          [&] x can be (div, p, img, table, ...)
+ 2-- createTextNode("x") -> where :
+          [&] x = my text ==> (value)  "hello world"
+ 3-- createComment("x") -> where :
+          [&] x = my text ==> (value)  "my comment"
+ 4-- appened()
+ 5-- before()
+ 6-- after()
+
+----------------------------------------------------
+
+ Bom : Browser Object Model
+  1-- window
+  2-- location
+  3-- history
+  4-- navigator
+  5-- screen (self study)
+
+---------------------------------------------------
+
+= Events
+  1-- Add Attributes
+  2-- Attach Function
+  3-- Add Event Listener
