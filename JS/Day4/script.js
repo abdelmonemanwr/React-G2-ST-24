@@ -300,23 +300,40 @@ function greet(e){
 // }
 
 
-var btn = document.getElementById("send");
-var inp = document.getElementsByClassName("in")[0];
-var err = document.getElementById("errorMSG");
+// var btn = document.getElementById("send");
+// var inp = document.getElementsByClassName("in")[0];
+// var err = document.getElementById("errorMSG");
 
-inp.addEventListener('input', function(e){
-    // console.log(e.target.value);
-    if(e.target.value.length<5){
-        err.style.display = "block";
-        inp.style.border = "2px solid red";
-    } else {
-        err.style.display = "none";
-        inp.style.border = "2px solid green";
-    }
-});
+// inp.addEventListener('input', function(e){
+//     // console.log(e.target.value);
+//     if(e.target.value.length<5){
+//         err.style.display = "block";
+//         inp.style.border = "2px solid red";
+//     } else {
+//         err.style.display = "none";
+//         inp.style.border = "2px solid green";
+//     }
+// });
 
-function login(event) { 
-    // console.log(event);
-    event.preventDefault();
-    console.log(inp.value, "logged in successfully");
-}
+// function login(event) { 
+//     // console.log(event);
+//     event.preventDefault();
+//     console.log(inp.value, "logged in successfully");
+// }
+
+
+// function first(e){
+//     console.log("first");
+//     e.stopPropagation();
+// }
+
+// function second(e){
+//     console.log("second");
+//     e.stopPropagation();
+// }
+
+// function third(e){
+//     console.log("third");
+//     e.stopPropagation();
+
+// }

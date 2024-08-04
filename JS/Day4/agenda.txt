@@ -52,3 +52,5 @@
   1-- Add Attributes
   2-- Attach Function
   3-- Add Event Listener
+
+  Propagation
