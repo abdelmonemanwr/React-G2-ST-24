@@ -1,0 +1,7 @@
+- propagation
+- cookies
+- types of cookies
+  == session cookie
+    -- add, delete, edit session cookie
+  == persistant cookie
+    -- add, delete, edit persistant cookie
