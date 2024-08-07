@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    background-color: aliceblue;
+} */
+
+/* canvas,
+svg{
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    background-color: aliceblue;
+} */
+
+/* top-left, top-right, bottom-right, bottom-left */
+/* .box1{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+
+     border-radius:50%; 
+    border-radius: 20px 185px
+    border-radius: 20px 50px 70px;
+    border-radius: 20px 50px 70px 80px;
+} */
+
+
+/* display: inline-block; */
+/* .first,
+.second,
+.third{
+    width: 33.333%;
+    height: 75px;
+    float: left;
+}
+.first{
+    background-color: teal;
+}
+
+.second{
+    background-color: brown;
+}
+.third{
+    background-color: cadetblue;
+}
+*/
+
+
+.box2{
+    background-color: rgb(6, 123, 190);
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 100px auto;
+    /* with box sizing the border and padding are not included */
+
+    /* box-shadow: horizontal vertical blur spread color inset|outset  ; */
+
+    /* box-shadow: -20px -35px red; */
+    /* box-shadow: -20px -35px red inset; */
+    /* box-shadow: 
+        10px 15px 2px 5px red,
+        -10px 35px 2px 5px green; */
+} 
+
+
+p{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+
+    /* text-shadow: horizontal, vertical, blur, color */
+    /* text-shadow: 5px 5px; */
+    /* text-shadow: 5px 5px 5px; */
+    text-shadow: 5px 5px 2px black;
+
+}
