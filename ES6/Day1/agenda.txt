@@ -1,0 +1,10 @@
+ES6
+
+[1] var, let, const
+[2] Default Parameters
+[3] Rest Parameters
+[4] Spread Operators
+[5] Destructuring
+[6] Arrow Functions
+[7] Array APIs (methods)
+[8] String APIs (methods)
