@@ -395,4 +395,4 @@ let products = [
 // console.log(out);
 
 
-// reduce
+// reduce: self study
