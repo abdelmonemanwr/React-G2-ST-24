@@ -1,0 +1,4 @@
+- object properties
+- setTimeOut Execution
+- Promises
+- Fetch
